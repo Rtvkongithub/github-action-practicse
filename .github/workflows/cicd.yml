@@ -9,18 +9,21 @@ jobs:
     steps:
       - name: Clone the code
         run: echo "Cloning the code"
-   build:
+
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: build using docker
-        run: echo "build using docker"
-   test:
+      - name: Build using Docker
+        run: echo "Build using Docker"
+
+  test:
     runs-on: ubuntu-latest
     steps:
-      - name:  testing the code
-        run: echo "testing the code"
-   deploy:
+      - name: Testing the code
+        run: echo "Testing the code"
+
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: testing the code
-        run: echo "Cloning the code"
+      - name: Deploy the code
+        run: echo "Deploying the code"
