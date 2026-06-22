@@ -4,13 +4,15 @@ name: Hello
 
 on:
   workflow_dispatch: 
-# job
+# job tells what the woklow o do, can more than 1 job
+# job is an obj , so need intendation
 # Should be inside workfliw
 jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello to everyone
+      # Run will b having the command
         run: echo "Helo frns"
 # Step
 # Should be inside job
